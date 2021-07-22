@@ -313,5 +313,8 @@ padding: 0% !important;
        border: none;
         
     }
+    .portfolio> .links{
+    overflow-wrap: break-word !important;
+    }
     
   }
