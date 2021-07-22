@@ -1,0 +1,317 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+body
+{
+    background-color: rgb(0, 0, 0) !important;
+    color:rgb(185, 181, 181) !important;
+         
+}
+
+li
+{
+    list-style: none;
+    font-size: 30px;
+    color: rgb(185, 181, 181) !important;
+    display:inline-flex;
+    margin: 20px;
+    padding: 10px
+    
+
+}
+ a
+{
+    text-decoration: none !important;
+    color: rgb(185, 181, 181) !important;
+}
+.navbar 
+{
+    display: flex !important; 
+    justify-content: flex-end !important;
+    margin: 20px;
+}
+h1, .animateText,.buttonLinks {
+        text-align: center;
+
+}
+h1
+{
+    font-size:8rem
+}
+section
+{
+    margin:30px;
+    padding: 20px;
+    display:flex;
+    justify-content: center !important;
+    font-size: 50px;
+    color: rgb(185, 181, 181) !important;
+    
+}
+
+.hero-image
+{
+   
+    margin-right: 0px;
+}
+.hero-content 
+{
+display: inline-flex !important;
+justify-content:center !important
+
+
+}
+#abtme-img
+{
+    border: 2px solid black;
+    padding: 5px;
+    margin-left:20px;
+    border-radius: 40px;
+}
+.aboutMe-p
+{
+margin-left: 20px;
+border: 2px solid rgb(9, 65, 53);
+overflow-wrap: break-word !important;
+margin-right:30px;
+width: 55%;
+}
+i{
+    width: 30px !important;
+    height: 30px !important;
+    margin: 20px !important;
+}
+
+.animateText
+{
+   margin-top: 40px;
+   margin-bottom: 20px;
+}
+
+
+#titleText 
+{
+    text-align: center;
+    font-size: 5rem;
+}
+.my-Work
+{
+    margin-top: 50px;
+}
+
+
+.contactMe
+{
+    margin-top:80px;
+    align-content: center;
+    width: 100%;
+    font-size: 3rem;
+    align-content: center !important;
+    border-bottom: 4px solid rgb(185, 181, 181) !important;
+}
+
+
+button{
+    border: none;
+    border-radius: 15px;
+    width: 12rem;
+    background-image: linear-gradient(to top, gray,white);
+    background-color: rgb(185, 181, 181) !important;
+    font-size: 25px;
+
+}
+button:hover
+{
+    color:saddlebrown;
+    font-style: italic;
+    font-style: bold;
+    font-variation-settings: 'wght' 850;
+    background-image: linear-gradient(to top, rgb(3, 54, 3),white);
+}
+li:hover
+{
+
+    font-style: italic;
+    color:saddlebrown !important;
+
+}
+i:hover
+{
+    color:saddlebrown;
+   
+}
+.footerNav
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 3px solid silver;
+    border-bottom: 3px solid silver;
+}
+
+footer 
+{
+    text-align: center;
+}
+
+.portfolio
+{
+height: 400px;
+width: 83%;
+background-size: cover;
+background-repeat: no-repeat;
+float: left;
+margin-bottom: 20px;
+margin-left: 20px;
+padding: 0% !important;
+
+
+}
+
+#QuizApp
+{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(42, 42, 34, 0.5)),url("../image/portfolioApps/quizApp.jpg") !important;
+}
+#fiveMin
+{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(42, 42, 34, 0.5)),url("../image/portfolioApps/fiveMin.JPG") !important;
+}
+#dayOrg
+{
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(42, 42, 34, 0.5)),url("../image/portfolioApps/dayplan.JPG") !important;
+}
+
+#Weather
+
+{
+    
+    /*background-image:url("../image/portfolioApps/weather.jpg") !important;*/
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(42, 42, 34, 0.5)), url("../image/portfolioApps/WeatherApp.jpg") !important;
+}
+#portImg
+{
+   
+    top: 50%;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+    /*transform: translateY(-50%);*/
+}
+#links
+{
+    margin-top:80px;
+    height: 60px;
+    width: 50%;
+    text-align: left;
+    background-image: linear-gradient(rgb(4, 7, 31), rgb(0, 0, 0),rgb(19, 2, 39));
+    cursor:pointer;
+    display: block;
+    margin-right: 2rem;
+    padding: 3px;
+  
+}
+#links:hover
+{
+    background-image: linear-gradient(rgb(8, 34, 4), rgb(31, 97, 64),black);
+}
+.serviceDiv
+{
+   margin: 20px;
+    height: 180px;
+    width: 40%;
+    text-align: center;
+    background-image: linear-gradient(rgb(18, 19, 19), rgba(5, 5, 5, 0.938),rgb(32, 34, 4));
+    cursor:pointer;
+}
+.Contact-me 
+{
+   
+    margin-top: 100px !important;
+    text-align: center !important;
+    font-size: 30px;
+}
+.Contact-me >i{
+    font-size: 30px !important;
+}
+.Contact-me >a:hover
+{
+    color:saddlebrown !important;
+   
+}
+@media only screen and (max-width: 768px) {
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+    img{
+        width: 300px;
+        height: 300px;
+    }
+    .navBar-footer>a>li
+    {
+        display: none !important;
+    }
+    h1{
+        font-size: 60px;
+    }
+    .imground{
+        display: none !important;
+    }
+    .abtme-img
+    {
+        width: 200px ;
+        height: 200px;
+        margin-left: 0 !important;
+        margin: 0 !important;
+    }
+    #navBarLi{
+        font-size: 13px !important;
+        font-style: normal;
+        display: inline;
+        padding: 0 !important;
+        margin: 2px !important;
+        border-right: rgb(253, 253, 253) 1px solid;
+    }
+    .navbar{
+        padding: 0 !important;
+        margin-top: 20px !important;
+        font-family: 'Open Sans', sans-serif;
+    }
+    .serviceDiv
+    {
+     margin-left: 10px !important;
+        margin-right: 10px !important;
+    }
+    .Contact-me {
+        font-size: 20px !important;
+        font-size: 20px !important;
+        height: 100px;
+        overflow-wrap: break-word !important;
+    }
+    .aboutMe-p
+    {
+      
+        padding: 10px;
+        overflow-wrap: break-word !important;
+        width: 92%;
+       align-self: center;
+       border: none;
+       background-image: linear-gradient(rgb(18, 19, 19), rgba(5, 5, 5, 0.938),rgb(32, 34, 4));
+    
+    }
+    .serviceDiv
+    {
+       
+        padding: 10px;
+        overflow-wrap: break-word !important;
+        width: 95%;
+       align-self: center;
+       border: none;
+        
+    }
+    
+  }
