@@ -21,9 +21,8 @@ https://tikakandel.github.io/tikaPortfolio/
 Unable to make contac me form to semd me email
 
 # technolog used
-HTML
-CSS
-BootStrap
-FontAs
-https://formsubmit.co/
-https://fontawesome.com/
+####### HTML
+####### CSS
+####### BootStrap
+####### https://formsubmit.co/
+####### https://fontawesome.com/
